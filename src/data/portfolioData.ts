@@ -1,5 +1,14 @@
 import { Project, EducationItem, SkillCategory, ExperienceStage } from '../types';
 import defaultAvatar from '../assets/images/photo_karunya_1790186327658.jpg';
+import imgWebScraper from '../assets/images/project_web_scraper_1790180990581.jpg';
+import imgEmotionDetection from '../assets/images/project_emotion_detection_1790181005690.jpg';
+import imgWeatherPrediction from '../assets/images/project_weather_prediction_1790182668326.jpg';
+import imgAiChatbot from '../assets/images/project_ai_chatbot_1790182682911.jpg';
+import imgIotParking from '../assets/images/project_iot_smart_parking_1790181017758.jpg';
+import imgOcrRecognition from '../assets/images/project_ocr_recognition_1790182695289.jpg';
+import imgKalmanTracking from '../assets/images/project_kalman_tracking_1790182707213.jpg';
+import imgHostelManagement from '../assets/images/project_hostel_management_1790182720468.jpg';
+import imgHomeAutomation from '../assets/images/project_home_automation_1790182731713.jpg';
 
 export const PERSONAL_INFO = {
   name: 'MUGESH S',
@@ -181,7 +190,7 @@ export const PROJECTS_DATA: Project[] = [
       'Normalized records persisted to PostgreSQL/SQLite',
       'Real-time metrics rendered on reactive analytics dashboard'
     ],
-    image: '/src/assets/images/project_web_scraper_1790180990581.jpg',
+    image: imgWebScraper,
     githubUrl: '#',
     demoUrl: '#'
   },
@@ -209,7 +218,7 @@ export const PROJECTS_DATA: Project[] = [
       'Deep learning model inference on emotional feature weights',
       'Visual HUD overlay displaying predicted class and confidence'
     ],
-    image: '/src/assets/images/project_emotion_detection_1790181005690.jpg',
+    image: imgEmotionDetection,
     githubUrl: '#',
     demoUrl: '#'
   },
@@ -238,7 +247,7 @@ export const PROJECTS_DATA: Project[] = [
       'Threshold evaluator checks condition triggers (>70% rain, >40°C heat)',
       'Render geospatial heatmap overlay with proactive decision support notices'
     ],
-    image: '/src/assets/images/project_weather_prediction_1790182668326.jpg',
+    image: imgWeatherPrediction,
     githubUrl: '#',
     demoUrl: '#'
   },
@@ -265,7 +274,7 @@ export const PROJECTS_DATA: Project[] = [
       'Context manager determines dialogue branch',
       'Dispatches tailored automated reply with high accuracy'
     ],
-    image: '/src/assets/images/project_ai_chatbot_1790182682911.jpg',
+    image: imgAiChatbot,
     githubUrl: '#',
     demoUrl: '#'
   },
@@ -293,7 +302,7 @@ export const PROJECTS_DATA: Project[] = [
       'IR sensor confirms slot occupancy and updates LED status',
       'System recalibrates available count in real-time'
     ],
-    image: '/src/assets/images/project_iot_smart_parking_1790181017758.jpg',
+    image: imgIotParking,
     githubUrl: '#'
   },
   {
@@ -319,7 +328,7 @@ export const PROJECTS_DATA: Project[] = [
       'CRNN sequence modeling predicts character token sequences',
       'CTC decoding maps probability distributions into digital text string'
     ],
-    image: '/src/assets/images/project_ocr_recognition_1790182695289.jpg',
+    image: imgOcrRecognition,
     githubUrl: '#'
   },
   {
@@ -345,7 +354,7 @@ export const PROJECTS_DATA: Project[] = [
       'Measurement update corrects error covariance matrix',
       'Render smoothed trajectory line and ahead-of-time forecast'
     ],
-    image: '/src/assets/images/project_kalman_tracking_1790182707213.jpg',
+    image: imgKalmanTracking,
     githubUrl: '#'
   },
   {
@@ -371,7 +380,7 @@ export const PROJECTS_DATA: Project[] = [
       'Commits reservation to MySQL database and issues confirmation voucher',
       'Admin portal updates live occupancy statistics'
     ],
-    image: '/src/assets/images/project_hostel_management_1790182720468.jpg',
+    image: imgHostelManagement,
     githubUrl: '#'
   },
   {
@@ -396,7 +405,7 @@ export const PROJECTS_DATA: Project[] = [
       'Switches relay contacts to toggle connected appliances',
       'Maintains stable state feedback and error safety'
     ],
-    image: '/src/assets/images/project_home_automation_1790182731713.jpg',
+    image: imgHomeAutomation,
     githubUrl: '#'
   }
 ];
